@@ -31,18 +31,12 @@ npm run dev
 
 ```mermaid
 sequenceDiagram
-    Programme->>+Voiture: Créer [noir, 100]
-    Voiture->>-Programme: Nouvelle instance Voiture
-    Programme->>+Voiture: Créer [rouge, 22]
-    Voiture->>-Programme: Nouvelle instance Voiture
-    Programme->>Programme: créer tableau voitures
-    Programme->>+Conducteur: Créer [Laforge, Thomas, voitures]
-    Conducteur->>-Programme: Instance Conducteur
-    Programme->>+Conducteur: crashe toi + première voiture
-    Conducteur->>+Voiture: crashe toi
-    Voiture->>Voiture: etat - 20%
-    Voiture->>-Conducteur: crashée
-    Conducteur->>+Voiture: nouvel etat ?
-    Voiture->>-Conducteur: etat = 80%
-    Conducteur->>-Programme: première voiture crashée (etat = 80%)
+    Programme->>+Joueur: Créer [Kevin, Durant, 37]
+    Joueur->>-Programme: Nouvelle instance Joueur
+    Programme->>+Joueur: Créer [Victor, Wembi, 19]
+    Joueur->>-Programme: Nouvelle instance Joueur
+    Programme->>+Equipe: Créer [J1, J2]
+    Equipe->>-Programme: Nouvelle instance Equipe
+    Programme->>+Equipe: Afficher le nombre de joueurs
+    Equipe->>+Programme: nb Joueurs = 2
 ```
