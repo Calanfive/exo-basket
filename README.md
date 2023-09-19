@@ -40,3 +40,18 @@ sequenceDiagram
     Programme->>+Equipe: Afficher le nombre de joueurs
     Equipe->>+Programme: nb Joueurs = 2
 ```
+
+```mermaid
+classDiagram
+    class Joueur{
+      +String prenom
+      +String nom
+      +int age
+    }
+
+    class Equipe{
+      +Int J1
+      +Int J2
+      +afficheNBRjoueurs()
+    }
+```
