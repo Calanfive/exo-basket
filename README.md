@@ -54,4 +54,12 @@ classDiagram
       +Int J2
       +afficheNBRjoueurs()
     }
+
+    class Match{
+      +Equipe ekip1
+      +Equipe ekip2
+      +Int score1
+      +Int score2
+    }
+
 ```
