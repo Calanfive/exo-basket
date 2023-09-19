@@ -1,4 +1,4 @@
-class Joueur {
+export class Joueur {
     public prenom: string
     public nom: string
     public age: number
@@ -7,11 +7,9 @@ class Joueur {
         prenom: string,
         nom: string,
         age: number
-    ) 
-    {
+    ) {
       this.prenom = prenom
       this.nom = nom
       this.age = age
     }
-  
-  }
+}
