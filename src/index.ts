@@ -1,16 +1,15 @@
 import { Joueur } from "./Joueur";
 import { Equipe } from "./Equipe";
-import { Match } from "./Match";
 import { TournoiA4 } from "./Tournoi";
 
 const j1 = new Joueur('Kevin','Durant', 37)
 const j2 = new Joueur('Victor','Wembi', 19)
-const j3 = new Joueur('Victor','Wembi', 19)
-const j4 = new Joueur('Victor','Wembi', 19)
-const j5 = new Joueur('Victor','Wembi', 19)
-const j6 = new Joueur('Victor','Wembi', 19)
-const j7 = new Joueur('Victor','Wembi', 19)
-const j8 = new Joueur('Victor','Wembi', 19)
+const j3 = new Joueur('Johna','Alomu', 28)
+const j4 = new Joueur('Bob','Ijo', 18)
+const j5 = new Joueur('Harv','Hey', 31)
+const j6 = new Joueur('Simple','One', 25)
+const j7 = new Joueur('Don','Ald', 27)
+const j8 = new Joueur('Bal','Eyze', 19)
 
 const equipe1 = new Equipe([j1, j2])
 const equipe2 = new Equipe([j3, j4])

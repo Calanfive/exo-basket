@@ -32,9 +32,9 @@ export class TournoiA4 {
     }
 
     public afficherPodium(): void {
-        console.log(`1ere equipe: ${this.result[0].j1.nom} ${this.result[0].j1.prenom}`)
-        console.log(`2eme equipe: ${this.result[0].j1.nom} ${this.result[0].j1.prenom}`)
-        console.log(`3eme equipe: ${this.result[0].j1.nom} ${this.result[0].j1.prenom}`)
+        console.log(`1ere equipe: ${this.result[0].j1.nom} ${this.result[0].j1.prenom}, ${this.result[0].j2.nom} ${this.result[0].j2.prenom}`)
+        console.log(`2eme equipe: ${this.result[1].j1.nom} ${this.result[1].j1.prenom}, ${this.result[1].j2.nom} ${this.result[1].j2.prenom}`)
+        console.log(`3eme equipe: ${this.result[2].j1.nom} ${this.result[2].j1.prenom}, ${this.result[2].j2.nom} ${this.result[2].j2.prenom}`)
     }
 
     public getAverageAgeOfWinners(){
