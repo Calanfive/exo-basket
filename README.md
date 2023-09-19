@@ -29,6 +29,7 @@ npm run dev
 
 ## Diagramme de sequence ##
 
+```mermaid
 sequenceDiagram
     Programme->>+Voiture: Créer [noir, 100]
     Voiture->>-Programme: Nouvelle instance Voiture
@@ -44,3 +45,4 @@ sequenceDiagram
     Conducteur->>+Voiture: nouvel etat ?
     Voiture->>-Conducteur: etat = 80%
     Conducteur->>-Programme: première voiture crashée (etat = 80%)
+```
